@@ -59,33 +59,13 @@
             android:background="@drawable/btn_primary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SISWA"
+            android:text="Login"
             android:width="130dp"
             android:textSize="16dp"
             android:fontFamily="@font/insanibuu"
             android:textColor="@color/black" />
 
-        <TextView
-            android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LOGIN SEBAGAI"
-            android:fontFamily="@font/insanibuu"
-            android:textColor="@color/black" />
 
-        <Button
-            android:id="@+id/btnLoginGuru"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/btn_primary"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="GURU"
-            android:width="130dp"
-            android:textSize="16dp"
-            android:theme="@style/myButton"
-            android:fontFamily="@font/insanibuu"
-            android:textColor="@color/black"
-            android:layout_marginBottom="20dp"/>
 
 
         <Button

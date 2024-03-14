@@ -17,7 +17,7 @@ import com.mumtaz.aplikasibahasaarab.model.Siswa;
 public class HomePage extends Helper {
 
     private Button btnSiswa;
-    private Button btnGuru, tentang;
+    private Button tentang;
     private MediaPlayer sound;
     SharedPreferences mPrefs;
 
@@ -56,7 +56,6 @@ public class HomePage extends Helper {
 
     private void initComponent(){
         btnSiswa = (Button) findViewById(R.id.btnLoginSiswa);
-        btnGuru = (Button) findViewById(R.id.btnLoginGuru);
         tentang = (Button) findViewById(R.id.btnHomeTentang);
 
         aksi();
@@ -67,13 +66,6 @@ public class HomePage extends Helper {
             sound.stop();
             this.pick();
             this.newIntent(getApplicationContext(), AboutPage.class, false, null);
-        });
-
-
-        btnGuru.setOnClickListener(v -> {
-            sound.stop();
-            this.pick();
-            this.newIntent(getApplicationContext(), LoginGuru.class, false, null);
         });
     }
 
