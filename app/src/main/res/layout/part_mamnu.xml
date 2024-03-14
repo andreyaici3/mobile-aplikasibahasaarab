@@ -47,7 +47,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Arti Mamnu’ Mina Ash-Shorf : Dilarang tanwinr"
+                android:text="1. Arti Mamnu’ Mina Ash-Shorf : Dilarang tanwin"
                 android:textColor="@color/black" />
 
             <TextView
@@ -84,6 +84,13 @@
                 android:text="3. Majrurnya kembali dengan kasroh, apabila terdapat alif lam ( ال ) "
                 android:textColor="@color/black" />
 
+            <ImageView
+                android:id="@+id/playDhomir3"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_sound" />
+
             <TextView
                 android:layout_marginLeft="15dp"
                 android:textSize="14dp"
@@ -108,7 +115,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="- اسم العرآة (عائشة)"
+                android:text="- اسم المرآة (عائشة)"
                 android:textColor="@color/black" />
 
             <TextView
@@ -209,13 +216,6 @@
                 android:layout_height="wrap_content"
                 android:text="- أَفْعِلاَءُ (أقوياء)"
                 android:textColor="@color/black" />
-
-            <ImageView
-                android:id="@+id/playDhomir3"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
 
             <TextView
                 android:layout_marginLeft="15dp"
@@ -572,13 +572,6 @@
                 </TableRow>
             </TableLayout>
 
-            <ImageView
-                android:id="@+id/playDhomir"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
-
             <TextView
                 android:layout_marginLeft="15dp"
                 android:textSize="14dp"
@@ -932,21 +925,8 @@
                 </TableRow>
             </TableLayout>
 
-            <ImageView
-                android:id="@+id/playDhomir1"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
-
         </LinearLayout>
 
-
-
-
-
-
     </ScrollView>
-
 
 </LinearLayout>

@@ -649,25 +649,10 @@
 
                 </TableRow>
 
-                <ImageView
-                    android:id="@+id/playDhomir1"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:src="@drawable/ic_sound" />
-
             </TableLayout>
-
-
 
         </LinearLayout>
 
-
-
-
-
-
     </ScrollView>
-
 
 </LinearLayout>

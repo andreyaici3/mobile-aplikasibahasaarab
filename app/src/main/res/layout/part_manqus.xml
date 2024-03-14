@@ -64,7 +64,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="a.	القَضِيْ , الدَاعِيْ , الرَاعِيْ , الوَادِيْ , المُصَلِّيْ"
+                android:text="a.	القاَضِيْ , الدَاعِيْ , الرَاعِيْ , الوَادِيْ , المُصَلِّيْ"
                 android:textColor="@color/black" />
 
             <TextView
@@ -325,15 +325,7 @@
 
                 </TableRow>
 
-
             </TableLayout>
-
-            <ImageView
-                android:id="@+id/playDhomir"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
 
             <TextView
                 android:textSize="14dp"
@@ -596,7 +588,7 @@
             </TableLayout>
 
             <ImageView
-                android:id="@+id/playDhomir1"
+                android:id="@+id/playDhomir"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
@@ -738,24 +730,10 @@
 
                 </TableRow>
 
-
             </TableLayout>
-
-            <ImageView
-                android:id="@+id/playDhomir2"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
 
         </LinearLayout>
 
-
-
-
-
-
     </ScrollView>
-
 
 </LinearLayout>

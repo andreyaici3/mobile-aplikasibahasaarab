@@ -170,6 +170,14 @@
                         android:textColor="@color/black" />
 
                     <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Diantara huruf Jar	:"
+                        android:textColor="@color/black" />
+
+                    <TextView
                         android:layout_marginLeft="15dp"
                         android:textSize="14dp"
                         android:layout_marginTop="5dp"
@@ -240,14 +248,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="h. ( لِ ) = milik"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:layout_marginTop="5dp"
-                        android:textSize="14dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="2. Diantara huruf Jar	:"
                         android:textColor="@color/black" />
 
                     <TextView
