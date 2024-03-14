@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/Theme.AplikasiBahasaArabNoAction"
+    tools:context=".MateriPagesDhomir">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:rotation="180">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:rotationY="180"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/wave" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buku1" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logoarabputih" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/insanibuu"
+                    android:textSize="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APLIKASI PENGENALAN KAIDAH DALAM BAHASA ARAB" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fkom"
+                android:background="@drawable/btn_primary"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:paddingLeft="10dp"
+                android:id="@+id/mainToolbar"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_baseline_menu_24"
+                />
+
+
+            <TextView
+                android:layout_weight="3"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:lineHeight="30dp"
+                android:fontFamily="@font/insanibuu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belajar kaidah\nDALAM BAHASA ARAB" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wrapperMateri"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:background="@color/grey"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="30dp"
+            android:layout_height="350dp">
+
+            <ScrollView
+                android:id="@+id/isiDhomir"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/judulMateri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:text="جار و مجرور في الضمير" />
+
+                    <TextView
+                        android:id="@+id/subJudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="KETERANGAN PELAJARAN\nJAR DAN MAJRUR DALAM ISIM DHOMIR" />
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Arti Jar: Huruf - Huruf Jar"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="a. ( مِنْ ) = dari"
+                        android:textColor="@color/black" />
+
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="b. ( اِلَى ) = ke"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c. ( عَنْ ) = dari"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="d. ( عَلَى ) = di atas"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="e. ( فِيْ ) = di dalam"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="f. ( بِ ) = dengan"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="g. ( كَ ) = seperti"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="h. ( لِ ) = milik"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Diantara huruf Jar	:"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Arti Majrur : Istilah I`rob dengan alamat kasroh"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Jar dan Majrur : Disebut Syibhul Jumlah ( شبه الجملة  )"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5. Kaidahnya :"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="a. Tidak bisa menjadi mubtada"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_marginLeft="15dp"
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="b. Boleh berbeda dengan mubtada ( jenis / bilangannya )"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="6. Contoh Majrur dengan Isim Dhomir :"
+                        android:textColor="@color/black" />
+
+                    <TableLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَى"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَى"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text=""
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَهُ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْهِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْهِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِهِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْهِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْهُ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="هو"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَهُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْهُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="هما"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَهُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْهِمْ	"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْهِمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِهِمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْهِمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْهُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="هم"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَهَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْهَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْهَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِهَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْهَا	"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْهَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="هي"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَهُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْهِمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْهُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="هما"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَهُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْهِنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْهِنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِهِنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إلَيْهِنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْهُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="هنّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَكَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْكَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْكَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِكَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْكَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْكَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنتَ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنتما"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَكُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْكُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْكُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِكُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْكُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْكُمْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنتم"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَكِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْكِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْكِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِكِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْكِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْكِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنتِ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْكُمَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنتما"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَكُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْكُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْكُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِكُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْكُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنْكُنَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنتنّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لِيْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بِيْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيَّ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنِّيْ"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="أنا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="لَنَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="فِيْنَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="عَلَيْنَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="بَنَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="إِلَيْنَا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="مِنَّا"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="نحن"
+                                android:textSize="14dp"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:textColor="@color/black"
+                                />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                    <ImageView
+                        android:id="@+id/playDhomir"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_sound" />
+
+                </LinearLayout>
+
+
+
+
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <Button
+            android:theme="@style/myButton"
+            android:id="@+id/btnMateriKembali"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@drawable/btn_primary"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/insanibuu"
+            android:text="KEMBALI" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:rotationY="180"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/wave" />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

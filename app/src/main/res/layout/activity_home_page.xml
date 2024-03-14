@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:rotationY="180"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/wave" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo1" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:lineHeight="30dp"
+            android:fontFamily="@font/insanibuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/JudulApp" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoarab" />
+
+        <Button
+            android:id="@+id/btnLoginSiswa"
+            android:theme="@style/myButton"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SISWA"
+            android:width="130dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/insanibuu"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN SEBAGAI"
+            android:fontFamily="@font/insanibuu"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnLoginGuru"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GURU"
+            android:width="130dp"
+            android:textSize="16dp"
+            android:theme="@style/myButton"
+            android:fontFamily="@font/insanibuu"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"/>
+
+
+        <Button
+            android:layout_marginBottom="10dp"
+            android:theme="@style/myButton"
+            android:id="@+id/btnHomeTentang"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_primary"
+            android:fontFamily="@font/insanibuu"
+            android:text="TENTANG"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:rotation="180"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:rotationY="180"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/wave" />
+    </LinearLayout>
+
+</RelativeLayout>

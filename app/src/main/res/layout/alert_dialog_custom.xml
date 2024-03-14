@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <ImageView
+            android:id="@+id/icNotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/failed" />
+        
+        <TextView
+            android:id="@+id/textNotif"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALAH!"
+            android:fontFamily="@font/insanibuu"
+            android:textColor="@color/red" />
+            
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasilJawaban"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        android:text="Jawaban Benar: " />
+
+    <TextView
+        android:id="@+id/jawabanBenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        android:text="Tampilkan Jawaban Benar" />
+
+    <Button
+        android:id="@+id/btnLanjutkan"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/insanibuu"
+        android:text="OKE" />
+
+
+
+
+</LinearLayout>

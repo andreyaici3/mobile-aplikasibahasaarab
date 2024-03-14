@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dhomir"
+        android:title="@string/menu1" />
+
+    <item
+        android:id="@+id/maqsur"
+        android:title="@string/menu2" />
+
+    <item
+        android:id="@+id/manqus"
+        android:title="@string/menu3" />
+    <item
+        android:id="@+id/mutsanna"
+        android:title="@string/menu4" />
+    <item
+        android:id="@+id/mudzakar"
+        android:title="@string/menu5" />
+    <item
+        android:id="@+id/mamnu"
+        android:title="@string/menu6" />
+
+</menu>

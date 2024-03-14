@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Aplikasi Bahasa Arab</string>
+    <string name="JudulApp">APLIKASI PENGENALAN KAIDAH\nDALAM BAHASA ARAB</string>
+    <string name="pencipta">GUGUN RIZAL NUGRAHA</string>
+    <string name="prodi">Program Studi Teknik Informatika</string>
+    <string name="fakultas">Fakultas Ilmu Komputer</string>
+    <string name="universitas">Universitas Kuningan</string>
+
+    <string name="menu1">JAR DAN MAJRUR DENGAN DHOMIR</string>
+    <string name="menu2">JAR DAN MAJRUR DENGAN MAQSUR</string>
+    <string name="menu3">JAR DAN MAJRUR DENGAN MANQUS</string>
+    <string name="menu4">JAR DAN MAJRUR DENGAN MUTSANNA</string>
+    <string name="menu5">JAR DAN MAJRUR DENGAN MUDZAKAR SALIM</string>
+    <string name="menu6">JAR DAN MAJRUR DENGAN MAMNU</string>
+
+    <string name="soal1">
+        <u>حليمة</u>من جاكرتا \nApa I’rob dari jumlah yang digaris bawahi?
+    </string>
+</resources>
