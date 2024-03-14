@@ -165,13 +165,6 @@
                 android:text="- العجمة (آدم)"
                 android:textColor="@color/black" />
 
-            <ImageView
-                android:id="@+id/playDhomir2"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
-
             <TextView
                 android:layout_marginLeft="15dp"
                 android:textSize="14dp"
