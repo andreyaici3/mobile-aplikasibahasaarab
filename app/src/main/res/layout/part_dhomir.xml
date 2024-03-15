@@ -1552,15 +1552,18 @@ android:layout_height="350dp">
 
             </TableRow>
 
+            <ImageView
+                android:id="@+id/playDhomir"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_sound" />
+
 
         </TableLayout>
 
-        <ImageView
-            android:id="@+id/playDhomir"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/ic_sound" />
+
+
 
 
 

@@ -1674,12 +1674,14 @@
 
                     </TableLayout>
 
+
                     <ImageView
                         android:id="@+id/playDhomir"
                         android:layout_marginTop="10dp"
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="30dp"
                         android:src="@drawable/ic_sound" />
+
 
                 </LinearLayout>
 

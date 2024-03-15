@@ -384,12 +384,7 @@
 
             </TableLayout>
 
-            <ImageView
-                android:id="@+id/playDhomir"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:src="@drawable/ic_sound" />
+
 
             <TextView
                 android:textSize="14dp"
@@ -650,6 +645,13 @@
                 </TableRow>
 
             </TableLayout>
+
+            <ImageView
+                android:id="@+id/playMaqsur"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_sound" />
 
         </LinearLayout>
 
